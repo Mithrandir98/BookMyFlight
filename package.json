@@ -1,0 +1,31 @@
+{
+  "name": "bookmyflight",
+  "version": "1.0.0",
+  "description": "A website that displays various information about flights to India from Indonesia and vice versa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mithrandir98/BookMyFlight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mithrandir98/BookMyFlight/issues"
+  },
+  "homepage": "https://github.com/Mithrandir98/BookMyFlight#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.2",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "path": "^0.12.7",
+    "router": "^1.3.5",
+    "serverless-http": "^2.7.0"
+  }
+}
