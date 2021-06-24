@@ -1,7 +1,11 @@
 html {
   overflow-x: hidden;
-  background-color: rgb(208, 208, 208);
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(208, 208, 208);
+  cursor: url("../images/plane.png"), auto;
 }
 
 .js-loading *,
@@ -41,4 +45,94 @@ html {
 }
 ::-webkit-scrollbar-corner {
   background-color: rgb(208, 208, 208);
+}
+
+.fonts {
+  font-family: "Open Sans", sans-serif;
+}
+
+.sticky-navbar {
+  padding-bottom: 10px;
+}
+
+.bg-light {
+  background-color: rgb(208, 208, 208) !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-expand-lg .navbar-collapse {
+  margin-left: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(31, 31, 31, 0.685);
+}
+
+.active {
+  color: rgba(31, 31, 31, 0.685);
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(31, 31, 31, 0.685);
+  font-weight: 600;
+}
+
+.navbar-light .navbar-link a,
+.navbar-light .navbar-link a:hover,
+.navbar-light .navbar-link a:focus {
+  color: rgba(31, 31, 31, 0.685);
+}
+
+.img-logo {
+  height: 180px;
+}
+
+.dropdown-menu {
+  background-color: rgb(208, 208, 208);
+  background-color: rgba(208, 208, 208, 0);
+  border: none;
+}
+
+.emptysection {
+  margin-top: 300px;
+}
+
+.windows-box {
+  margin: 10px;
+  text-align: center;
+}
+
+.windows-image {
+  width: 70%;
+}
+
+.button-box {
+  text-align: center;
+  padding: 10px;
+}
+
+.btn1 {
+  font-size: 30px;
+  background-color: rgba(31, 31, 31, 0.356);
+  font-weight: 600;
+  margin-right: 50px;
+}
+
+.btn2 {
+  font-size: 30px;
+  background-color: rgba(31, 31, 31, 0.356);
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+.trio-box {
+  margin: 10px;
+  text-align: center;
+}
+
+.trio-image {
+  width: 70%;
 }
