@@ -71,7 +71,7 @@ body {
 }
 
 .active {
-  color: rgba(31, 31, 31, 0.685);
+  color: rgba(31, 31, 31);
   font-weight: 600;
 }
 
@@ -83,11 +83,11 @@ body {
 .navbar-light .navbar-link a,
 .navbar-light .navbar-link a:hover,
 .navbar-light .navbar-link a:focus {
-  color: rgba(31, 31, 31, 0.685);
+  color: rgb(31, 31, 31);
 }
 
 .img-logo {
-  height: 180px;
+  height: 160px;
 }
 
 .dropdown-menu {
@@ -96,8 +96,12 @@ body {
   border: none;
 }
 
+.dropdown-item {
+  font-size: 14px;
+}
+
 .emptysection {
-  margin-top: 300px;
+  margin-top: 175px;
 }
 
 .windows-box {
@@ -135,4 +139,65 @@ body {
 
 .trio-image {
   width: 70%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 330px) {
+  .emptysection {
+    margin-top: 150px;
+  }
+  .img-logo {
+    height: 80px;
+  }
+
+  .windows-image {
+    width: 100%;
+  }
+
+  .button-box {
+    padding: 1px;
+  }
+  .btn1 {
+    font-size: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .btn2 {
+    font-size: 8px;
+    margin-left: 0px;
+  }
+
+  .trio-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 331px) and (max-width: 449px) {
+  .emptysection {
+    margin-top: 120px;
+  }
+  .img-logo {
+    height: 80px;
+  }
+
+  .windows-image {
+    width: 100%;
+  }
+
+  .button-box {
+    padding: 1px;
+  }
+
+  .btn1 {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .btn2 {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+  .trio-image {
+    width: 100%;
+  }
 }

@@ -15,7 +15,7 @@ app.use(
   express.static(path.join(__dirname, "./node_modules/bootstrap/dist/js"))
 );
 app.use(
-  "/js",
+  "/dist/js",
   express.static(path.join(__dirname, "./node_modules/jquery/dist"))
 );
 
