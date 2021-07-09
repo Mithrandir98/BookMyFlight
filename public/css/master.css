@@ -220,46 +220,46 @@ body {
 
 .contact-name {
   border: 4px solid rgb(31, 31, 31, 0.858);
-  width: 40%;
+  width: 50%;
   font-size: 20px;
   margin-right: 30px;
-  margin-left: 20%;
+  margin-left: 18%;
   padding: 10px;
 }
 
 .contact-email {
   border: 4px solid rgb(31, 31, 31, 0.858);
-  width: 40%;
+  width: 50%;
   font-size: 20px;
   margin-right: 30px;
   margin-top: 40px;
-  margin-left: 20%;
+  margin-left: 18%;
   padding: 10px;
 }
 
 .contact-phone {
   border: 4px solid rgb(31, 31, 31, 0.858);
-  width: 40%;
+  width: 50%;
   font-size: 20px;
   margin-right: 30px;
-  margin-left: 20%;
+  margin-left: 18%;
   margin-top: 40px;
   padding: 10px;
 }
 
 .contact-message {
   border: 4px solid rgb(31, 31, 31, 0.858);
-  width: 40%;
+  width: 50%;
   font-size: 20px;
   margin-right: 30px;
-  margin-left: 20%;
+  margin-left: 18%;
   margin-top: 40px;
   padding: 10px 10px 100px 10px;
 }
 
 .btn-contact {
   display: flex;
-  font-size: 25px;
+  font-size: 30px;
   margin: 30px 0px 10px 38%;
   background-color: rgb(31, 31, 31, 0.658);
 }
@@ -291,6 +291,55 @@ body {
 
   .trio-image {
     width: 30%;
+    margin-left: 5px;
+    margin-right: 1px;
+  }
+
+  .flights-header {
+    font-size: 30px;
+  }
+  .quarentine-header {
+    font-size: 30px;
+  }
+  .travel-header {
+    font-size: 30px;
+  }
+  .forms-header {
+    font-size: 30px;
+  }
+
+  .contact-header {
+    font-size: 30px;
+  }
+  .contact-form {
+    padding-top: 30px;
+    margin-left: 2px;
+  }
+
+  .contact-name {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .contact-email {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .contact-phone {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .contact-message {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 20px;
+    margin: 30px 0px 10px 32%;
   }
 }
 
@@ -322,6 +371,55 @@ body {
 
   .trio-image {
     width: 30%;
+    margin-left: 5px;
+    margin-right: 1px;
+  }
+
+  .flights-header {
+    font-size: 35px;
+  }
+  .quarentine-header {
+    font-size: 35px;
+  }
+  .travel-header {
+    font-size: 35px;
+  }
+  .forms-header {
+    font-size: 35px;
+  }
+
+  .contact-header {
+    font-size: 35px;
+  }
+  .contact-form {
+    padding-top: 30px;
+    margin-left: 2px;
+  }
+
+  .contact-name {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .contact-email {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .contact-phone {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .contact-message {
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 20px;
+    margin: 30px 0px 10px 34%;
   }
 }
 
@@ -353,6 +451,58 @@ body {
 
   .trio-image {
     width: 30%;
+    margin-left: 5px;
+    margin-right: 1px;
+  }
+
+  .flights-header {
+    font-size: 35px;
+  }
+  .quarentine-header {
+    font-size: 35px;
+  }
+  .travel-header {
+    font-size: 35px;
+  }
+  .forms-header {
+    font-size: 35px;
+  }
+  .contact-header {
+    font-size: 35px;
+  }
+
+  .contact-header {
+    font-size: 35px;
+  }
+  .contact-form {
+    padding-top: 30px;
+    margin-left: 2px;
+  }
+
+  .contact-name {
+    width: 65%;
+    font-size: 16px;
+  }
+
+  .contact-email {
+    width: 65%;
+    font-size: 16px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    font-size: 16px;
+  }
+
+  .contact-message {
+    width: 65%;
+    font-size: 16px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 20px;
+    margin: 30px 0px 10px 38%;
   }
 }
 
@@ -384,6 +534,57 @@ body {
 
   .trio-image {
     width: 30%;
+    margin-left: 5px;
+    margin-right: 1px;
+  }
+
+  .flights-header {
+    font-size: 40px;
+  }
+  .quarentine-header {
+    font-size: 40px;
+  }
+  .travel-header {
+    font-size: 40px;
+  }
+  .forms-header {
+    font-size: 40px;
+  }
+
+  .contact-header {
+    font-size: 40px;
+  }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .contact-email {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .contact-message {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 22px;
+    margin: 30px 0px 10px 40%;
   }
 }
 
@@ -422,6 +623,38 @@ body {
     margin-left: 50px;
     margin-right: 10px;
   }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .contact-email {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .contact-message {
+    width: 65%;
+    margin-left: 15%;
+    font-size: 18px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 24px;
+    margin: 30px 0px 10px 40%;
+  }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1089px) {
@@ -458,6 +691,34 @@ body {
     width: 20%;
     margin-left: 50px;
     margin-right: 10px;
+  }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .contact-email {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .contact-message {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 24px;
+    margin: 30px 0px 10px 44%;
   }
 }
 
@@ -496,6 +757,34 @@ body {
     margin-left: 50px;
     margin-right: 10px;
   }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .contact-email {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .contact-message {
+    width: 65%;
+    font-size: 18px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 24px;
+    margin: 30px 0px 10px 46%;
+  }
 }
 
 @media only screen and (min-width: 1173px) and (max-width: 1250px) {
@@ -532,6 +821,38 @@ body {
     width: 20%;
     margin-left: 50px;
     margin-right: 10px;
+  }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-email {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-message {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 24px;
+    margin: 30px 0px 10px 46%;
   }
 }
 
@@ -570,6 +891,38 @@ body {
     margin-left: 50px;
     margin-right: 10px;
   }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-email {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-message {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 24px;
+    margin: 30px 0px 10px 46%;
+  }
 }
 
 @media only screen and (min-width: 1305px) and (max-width: 1400px) {
@@ -607,6 +960,38 @@ body {
     margin-left: 50px;
     margin-right: 10px;
   }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-email {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-message {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 28px;
+    margin: 30px 0px 10px 46%;
+  }
 }
 
 @media only screen and (min-width: 1401px) and (max-width: 1650px) {
@@ -643,5 +1028,37 @@ body {
     width: 15%;
     margin-left: 80px;
     margin-right: 40px;
+  }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-email {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-phone {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .contact-message {
+    width: 65%;
+    margin-left: 18%;
+    font-size: 20px;
+  }
+
+  .btn-contact {
+    display: flex;
+    font-size: 28px;
+    margin: 30px 0px 10px 46%;
   }
 }
