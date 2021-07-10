@@ -144,7 +144,7 @@ body {
 .ticker-wrap {
   width: 100%;
   padding-left: 100%; /* Push contents to right side of screen */
-  background-color: #eee;
+  background-color: rgb(208, 208, 208);
 }
 
 /* INNER CONTAINER */
@@ -186,27 +186,46 @@ body {
   margin-left: 50px;
   margin-right: 10px;
 }
-
+#flights {
+  margin-top: 5%;
+  margin-bottom: 30%;
+}
 .flights-header {
   text-align: center;
   font-size: 50px;
   color: rgb(31, 31, 31, 0.858);
+}
+
+#quarentine {
+  margin-top: 5%;
+  margin-bottom: 30%;
 }
 .quarentine-header {
   text-align: center;
   font-size: 50px;
   color: rgb(31, 31, 31, 0.858);
 }
+
+#travel {
+  margin-top: 5%;
+  margin-bottom: 30%;
+}
 .travel-header {
   text-align: center;
   font-size: 50px;
   color: rgb(31, 31, 31, 0.858);
+}
+
+#forms {
+  margin-top: 5%;
+  margin-bottom: 30%;
 }
 .forms-header {
   text-align: center;
   font-size: 50px;
   color: rgb(31, 31, 31, 0.858);
 }
+
 .contact-header {
   text-align: center;
   font-size: 50px;
