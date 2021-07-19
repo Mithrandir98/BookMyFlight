@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookMyFlight</title>
+    <script src="/dist/js/jquery.min.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="/js/bootstrap.bundle.js" type="text/javascript"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="/css/master.css" />
+  </head>
+  <body>
+    <div class="sticky-navbar fonts">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"
+            ><img
+              src="/images/logo.png"
+              alt="Logo"
+              class="img-logo animate__animated animate__fadeInUpBig"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#NavBar"
+            aria-controls="NavBar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse move-right" id="NavBar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item box-e">
+                <a
+                  class="
+                    nav-link
+                    active
+                    custom-underline
+                    animate__animated animate__fadeInUpBig
+                  "
+                  aria-current="page"
+                  href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown box-e">
+                <a
+                  class="nav-link custom-underline dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Flights
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="flights.html"
+                      >Repatriation Flights</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="flights.html"
+                      >Chartered Flights</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="flights.html"
+                      >Commercial Flights</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown box-e">
+                <a
+                  class="nav-link custom-underline dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Quarantine Information
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="quarantine.html"
+                      >Indonesia to India</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="quarantine.html"
+                      >India to Indonesia</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown box-e">
+                <a
+                  class="nav-link custom-underline dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Travel & Visa Documents
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="travel.html">Useful Links</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown box-e">
+                <a
+                  class="nav-link custom-underline dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Forms
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="forms.html"
+                      >Quarantine Letter</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="forms.html"
+                      >Self Declaration Form</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item box-e">
+                <a
+                  class="
+                    nav-link
+                    custom-underline
+                    animate__animated animate__fadeInUpBig
+                  "
+                  href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="emptysection"></div>
+    <section id="flights">
+      <h3 class="flights-header fonts">Flights</h3>
+    </section>
+
+    <script>
+      $(".navbar-nav li a").on("click", function () {
+        $(".navbar-nav li a").removeClass("active");
+        $(this).addClass("active");
+      });
+    </script>
+  </body>
+</html>

@@ -23,7 +23,7 @@
     <div class="sticky-navbar fonts">
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#landing-page"
+          <a class="navbar-brand" href="home.html"
             ><img
               src="/images/logo.png"
               alt="Logo"
@@ -51,7 +51,7 @@
                     animate__animated animate__fadeInUpBig
                   "
                   aria-current="page"
-                  href="#landing-page"
+                  href="home.html"
                   >Home</a
                 >
               </li>
@@ -71,13 +71,19 @@
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a class="dropdown-item" href="#flights">Repatriation Flights</a>
+                    <a class="dropdown-item" href="flights.html"
+                      >Repatriation Flights</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#flights">Chartered Flights</a>
+                    <a class="dropdown-item" href="flights.html"
+                      >Chartered Flights</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#flights">Commercial Flights</a>
+                    <a class="dropdown-item" href="flights.html"
+                      >Commercial Flights</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -97,10 +103,14 @@
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a class="dropdown-item" href="#quarentine">Indonesia to India</a>
+                    <a class="dropdown-item" href="quarantine.html"
+                      >Indonesia to India</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#quarentine">India to Indonesia</a>
+                    <a class="dropdown-item" href="quarantine.html"
+                      >India to Indonesia</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -119,7 +129,9 @@
                   class="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <li><a class="dropdown-item" href="#travel">Useful Links</a></li>
+                  <li>
+                    <a class="dropdown-item" href="travel.html">Useful Links</a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item dropdown box-e">
@@ -138,10 +150,14 @@
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a class="dropdown-item" href="#forms">Quarantine Letter</a>
+                    <a class="dropdown-item" href="forms.html"
+                      >Quarantine Letter</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#forms">Self Declaration Form</a>
+                    <a class="dropdown-item" href="forms.html"
+                      >Self Declaration Form</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -152,7 +168,7 @@
                     custom-underline
                     animate__animated animate__fadeInUpBig
                   "
-                  href="#contact"
+                  href="contact.html"
                   >Contact</a
                 >
               </li>
@@ -162,102 +178,10 @@
       </nav>
     </div>
     <div class="emptysection"></div>
-    <section id="landing-page">
-      <div class="windows-box">
-        <img src="/images/windows.png" class="windows-image" alt="windows" />
-      </div>
-      <div class="button-box">
-        <button type="button" class="btn btn1">
-          JAKARTA <img src="/images/plane2.png" alt="plane" /> CHENNAI
-        </button>
-        <button type="button" class="btn btn2">
-          CHENNAI <img src="/images/plane2.png" alt="plane" /> JAKARTA
-        </button>
-      </div>
-      <div class="tcontainer">
-        <div class="ticker-wrap">
-          <div class="ticker-move">
-            <div class="ticker-item">Sample News 1</div>
-            <div class="ticker-item">Sample News 2</div>
-            <div class="ticker-item">Sample News 3</div>
-          </div>
-        </div>
-      </div>
-      <div class="trio-box">
-        <img src="/images/logo1.png" alt="logo1" class="trio-image" />
-        <img src="/images/logo2.png" alt="logo2" class="trio-image" />
-        <img src="/images/logo3.png" alt="logo3" class="trio-image" />
-      </div>
-    </section>
-    <section id="flights">
-      <h3 class="flights-header fonts">Flights</h3>
-    </section>
     <section id="quarentine">
-      <h3 class="quarentine-header fonts">Quarentine Information</h3>
+      <h3 class="quarentine-header fonts">Quarantine Information</h3>
     </section>
-    <section id="travel">
-      <h3 class="travel-header fonts">Travel & Visa Documents</h3>
-    </section>
-    <section id="forms">
-      <h3 class="forms-header fonts">Forms</h3>
-    </section>
-    <section id="contact">
-      <h3 class="contact-header fonts">Contact Us</h3>
-      <div>
-        <form
-          action="send"
-          autocomplete="on"
-          class="contact-form fonts"
-          id="contactForm"
-          method="POST"
-          enctype="multipart/form-data"
-        >
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Name*"
-            required
-            class="contact-name fonts animate__animated"
-          />
-          <br />
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="Email*"
-            required
-            class="contact-email fonts animate__animated"
-          />
-          <br />
-          <input
-            id="phone"
-            name="phone"
-            type="text"
-            placeholder="Phone Number*"
-            required
-            class="contact-phone fonts animate__animated"
-          />
-          <br />
-          <input
-            id="message"
-            name="message"
-            type="textarea"
-            placeholder="Message*"
-            required
-            class="contact-message fonts animate__animated"
-          />
-          <br />
-            <input
-              type="submit"
-              class="btn btn-lg btn-primary btn-contact animate__animated"
-              data-bs-toggle="button"
-              value="Submit"
-            />
-          </div>
-        </form>
-      </div>
-    </section>
+
     <script>
       $(".navbar-nav li a").on("click", function () {
         $(".navbar-nav li a").removeClass("active");

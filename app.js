@@ -21,8 +21,10 @@ app.use(
 
 app.use(express.static(__dirname + "/public"));
 
+app.use(express.static(__dirname + "/views"));
+
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "views/index.html"));
+  res.sendFile(path.join(__dirname, "views/home.html"));
 });
 
 module.exports = app;
