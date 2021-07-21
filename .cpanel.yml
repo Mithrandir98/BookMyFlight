@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/boog8911/public_html
-    - /bin/cp -R BookMyFlight $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
